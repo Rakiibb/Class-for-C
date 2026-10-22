@@ -1,24 +1,29 @@
 #include <stdio.h>
 int main()
+
 {
-    int number;
-    float value;
-    char name;
-    float mul = (float)10/3;
+    int a;
+    float b;
+    char c;
+    float sifat = 10.00/3;
 
-    printf("give me a int value : ");
-    scanf("%d", &number);
+    printf("give here a int value: ");
+    scanf("%d", &a);
 
-    printf("give me a float value : ");
-    scanf("%f", &value);
+    printf("five here a float value: ");
+    scanf("%f", &b);
 
-    printf("give me a charecter value : ");
-    scanf(" %c", &name);
+    printf("give here a character value: ");
+    scanf(" %c", &c);
 
-    printf("%d \n", number);
-    printf("%.2f \n", value);
-    printf("%.20lf \n", mul);
-    printf("%c \n", name);
+    printf("\n \n \n");
+
+    printf("This is a integer value : %d \n", a);
+    printf("This is a float value : %f \n", b);
+    printf("This is a double value : %lf \n", sifat);
+    printf("THis is a charecter value : %c \n", c);
+
 
     return 0;
 }
+
