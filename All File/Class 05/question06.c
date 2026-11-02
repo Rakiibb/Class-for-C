@@ -16,7 +16,7 @@ int main()
 
 
     printf("The area of the circle is : %f\n", area);
-    printf("The circumference of \t the circle is :%f\n", circumference);
+    printf("The circumference of the circle is :%f\n", circumference);
 
     return 0;
 }
