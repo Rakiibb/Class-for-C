@@ -12,7 +12,8 @@ int main()
     }
 
     for(int i = 1; i <= n; i++){
-        if(i == (terget + 1)){
+        if(i == (terget)){
+            printf("%d", terget);
             break;
         }
         printf("%d\n", i);
