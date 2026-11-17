@@ -1,9 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int number[20] = {2,4,6,2,7,3,6,5};
+    // truty value & falsy value
+    // truthy value (0 chara kono kicho jodi thake), 1, true
+    // falsy value (0) (null) (undefine) (false)
+    int number[10] = {};
 
-    for(int i = 0; i < 20; i++){
+    for(int i = 0; i < 10; i++){
+        scanf("%d", &number[i]);
+    }
+
+    for(int i = 0; i < 10; i++){
             if(number[i]){
                 printf("%d\n", number[i]);
             }
