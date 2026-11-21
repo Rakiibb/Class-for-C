@@ -18,7 +18,7 @@ int main()
             h = number[i];
         }
     }
-    printf("largest value is : %d", h);
+    printf("Smallest value is : %d", h);
     return 0;
 }
 
